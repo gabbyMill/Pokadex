@@ -1,8 +1,7 @@
-/* use sass plz */
 .main {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 3.2rem auto;
 }
 
 img {
@@ -18,4 +17,34 @@ img {
 .dropdown-menu {
     height: 25vh;
     overflow: scroll;
+}
+
+.info {
+    margin: 1rem;
+    padding: 1rem;
+    background: rgb(50, 190, 255);
+    width: 50vh;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    background: rgb(150, 209, 54);
+    font-size: 2.35rem;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    margin: 5vh auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 55vh;
+    margin-left: 0;
 }

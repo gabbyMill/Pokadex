@@ -94,7 +94,13 @@ function createElement (pokemonData, typeOfElement, apiData) {
         //     getEvolution(apiData.id) // or apiData.name
         // })
     } else {
-        element.textContent = `${property}: ${pokemonData}`
+        if (property === 'Name') {
+            element.classList.add('name')
+            element.textContent = pokemonData[0].toUpperCase() + pokemonData.slice(1)
+        } else {
+            element.textContent = `${property}: ${pokemonData}`
+        }
+        element.classList.add('info')
     }
 
     // img.addEventListener('mouseover', hoverOverImage)
