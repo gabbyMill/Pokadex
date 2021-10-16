@@ -1,0 +1,21 @@
+/* use sass plz */
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+img:hover {
+  background-color: #00ffaa;
+}
+
+.buttons {
+  display: flex;
+}
+
+.dropdown-menu {
+  height: 25vh;
+  overflow: scroll;
+}
+
+/*# sourceMappingURL=output.css.map */

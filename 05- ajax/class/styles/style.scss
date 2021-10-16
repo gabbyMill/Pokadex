@@ -1,0 +1,21 @@
+/* use sass plz */
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+img {
+    &:hover {
+        background-color: rgb(0, 255, 170);
+    }
+}
+
+.buttons {
+    display: flex;
+}
+
+.dropdown-menu {
+    height: 25vh;
+    overflow: scroll;
+}

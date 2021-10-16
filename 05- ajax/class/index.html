@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">  
     <title>AJAX</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/output.css">
     <meta name="description" content="Client-side app illustrating fetch and axios">
     <meta name="author" content="Denise Case">
     <!-- Font Awesome -->
@@ -26,10 +26,24 @@
       <!-- Main -->
   <div class = 'main'>
       Main
-      <h1 class = 'welcome'>Welcome to Gabby's Pokadex</h1>
+      <h1 class = 'welcome'>Welcome to Gabby's Pokédex</h1>
       <input type="text" placeholder="Pokemon Name\Number" class="search-bar">
-      <button class = 'search-button'>Search</button>
+      <input type='submit' class = 'search-button' value="Pokemon Name/Number">
       <div class="display"></div>
+      <div class="buttons">
+        <div class="dropdown">
+          <button class="btn1 btn btn-secondary dropdown-toggle d-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button>
+            <div class="dropdown-menu dropdown-menu1" aria-labelledby="dropdownMenuButton">
+            </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn2 btn btn-secondary dropdown-toggle d-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button>
+          <div class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenuButton">
+          </div>
+        </div>
+  </div>
   </div>
       <!-- Footer -->
       <footer class="footer mt-auto py-3 bg-light">
