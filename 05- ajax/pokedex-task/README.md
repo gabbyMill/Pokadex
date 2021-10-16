@@ -1,17 +1,8 @@
-## Pokedex Task
+# Gabby's Pokedex
 
-In this task you will build your own pokédex!
-Read,learn and use https://pokeapi.co/
+Click [here]https://gabbymill.github.io/Pokadex/class/index.html to chech it out
 
-# Setup:
-
-- Create a new repo called "pokedex" using the Skelton defined here
-- Work on your brunch
-- Create a PR and submit it in the classroom
-
-Use axios to fetch the pokeAPI
-
-# Pokedex
+### Pokedex
 
 - Read about cross origin and way to handle it
 - Use [this](https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino?hl=en) chrome extension for unblock cross origin when working on local file
@@ -23,11 +14,11 @@ Use axios to fetch the pokeAPI
 - [x] On click on one of the pokemon types show list of all the pokemons names that related to this type ([HINT](https://pokeapi.co/docs/v2#type:~:text=lines)))
 - [x] On Click on one of the pokemon name change the pokedex context by changing the input value to the name of the pokemon
 
-# Bonus:
+### Bonus:
 
 1. [x] Use fetch instead of axios in two functions
 2. [x] Use bootstrap for efficient and easy design
 3. [x] Add design and features of your choice
 
-Feel free to get inspired to start working from the [demo](https://murmuring-cove-95500.herokuapp.com/):
+
 
