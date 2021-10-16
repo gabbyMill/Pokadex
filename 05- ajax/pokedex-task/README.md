@@ -1,6 +1,6 @@
 # Gabby's Pokedex
 
-Click [here]https://gabbymill.github.io/Pokadex/class/index.html to chech it out
+Click [here]https://gabbymill.github.io/Pokadex/05- ajax/class/index.html
 
 ### Pokedex
 
