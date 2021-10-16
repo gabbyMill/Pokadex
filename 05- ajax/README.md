@@ -1,6 +1,6 @@
 # Gabby's Pokedex
 
-Click [here]("https://gabbymill.github.io/Pokadex/05- ajax/class/index.html")
+Click [here](<https://gabbymill.github.io/Pokadex/05- ajax/class/index.html>)
 
 
 
